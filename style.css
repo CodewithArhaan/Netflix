@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    background-image: url("assets/images/bg.jpg");
+    height: 65.80vh;
+    position: relative;
+
+
+}
+
+.main .box {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.60;
+    position: absolute;
+}
+
+nav {
+    position: relative;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.sign {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    z-index: 1;
+}
+
+button {
+    position: relative;
+    z-index: 50;
+}
+
+.content {
+
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.font {
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.email {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+    width: 22vw;
+    padding-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border: 1px solid rgba(177, 163, 163, 0.575);
+
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-top: 3px;
+    z-index: 100;
+    position: relative;
+}
+
+.email::placeholder {
+    color: white;
+}
+
+.start {
+    background-color: red;
+    color: white;
+    padding: 6.5px;
+    border-radius: 1px;
+    padding-right: 20px;
+}
+
+.arrow {
+    display: inline-block;
+    transform: scale(1.5);
+    transform-origin: center;
+}
+
+.margin {
+    margin: 10px;
+}
+
+.sepration {
+    height: 6px;
+    width: 100vw;
+    background-color: rgb(59, 56, 56);
+}
+
+.text {
+    color: white;
+}
+
+.content span {
+    position: relative;
+    z-index: 100;
+}
+
+section {
+    height: 50vh;
+    padding-top: 100px;
+}
+
+.login {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.first {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 90px;
+    width: 100%;
+    color: white;
+
+
+}
+
+.seprate {
+    position: relative;
+    bottom: -134px;
+}
+
+.log-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.log-page>span {
+    margin-bottom: 10px;
+}
+
+.second-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 13px;
+}
+
+.text {
+    position: relative;
+    color: white;
+    left: 0;
+    /* or just remove this line completely */
+    padding: 0 20px;
+    /* add horizontal padding */
+    max-width: 90vw;
+    text-align: center;
+}
+
+
+.first-img {
+    position: relative;
+}
+
+.first-img img {
+    z-index: 1;
+    position: relative;
+}
+
+.first-img video {
+    position: absolute;
+    left: 67px;
+    top: 65px;
+}
+
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+body {
+    background-color: black;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.faq-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f3f3f;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 70vw;
+    margin: auto;
+    transition: background-color 0.50s ease-out;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.faq-box:hover {
+    background-color: #1f1f1f;
+}
+
+.faq h2 {
+    text-align: center;
+}
+
+
+
+
+.fifth {
+    color: white;
+    height: 75vh;
+}
+
+footer {
+    height: 70vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;;
+}
+
+footer div ul li {
+    list-style-type: none;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.box {
+   display: flex;
+row-gap: 20px;
+}
+
+
+
+  /* Responsive Layout Fixes */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      padding: 10px;
+      gap: 10px;
+    }
+  
+    nav img {
+      width: 120px;
+    }
+  
+    .main {
+      height: auto;
+      padding-bottom: 40px;
+    }
+  
+    .content .font {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .content > span {
+      font-size: 14px;
+      padding: 0 10px;
+      text-align: center;
+    }
+  
+    .content div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      padding: 0 10px;
+    }
+  
+    .email {
+      width: 90%;
+    }
+  
+    .start {
+      width: 90%;
+      text-align: center;
+      font-size: 16px;
+    }
+  
+    .sepration {
+      width: 100%;
+    }
+  
+    section.first,
+    section.second,
+    section.third,
+    section.fourth {
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .first-img video {
+      position: relative;
+      width: 100%;
+      height: auto;
+      margin-top: 10px;
+      top: 100px;
+    }
+  
+    .first-img img,
+    .secondimg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .second-text span {
+      padding: 0 10px;
+      font-size: 16px;
+    }
+  
+    .faq-box {
+      flex-direction: column;
+      text-align: left;
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .fifth {
+      padding: 0 10px;
+      height: auto;
+    }
+  
+    .log-page span {
+      text-align: center;
+      padding: 0 10px;
+      display: block;
+    }
+  
+    .log-page div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      gap: 10px;
+      padding: 0 10px;
+    }
+  
+    footer {
+      flex-direction: column;
+      height: auto;
+      gap: 30px;
+      padding: 30px 20px;
+      align-items: flex-start;
+    }
+  
+    .box {
+      width: 100%;
+    }
+  
+    footer ul {
+      padding-left: 0;
+    }
+  
+    footer li {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+  
+    select.transparent {
+      width: 100%;
+      max-width: 200px;
+    }
+    .first-img {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .first-img img {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+        z-index: 50;
+      }
+      
+      .first-img video {
+        position: absolute;
+        
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: auto;
+        z-index:1;
+        pointer-events: none;
+
+      }
+      
+  }
+  
